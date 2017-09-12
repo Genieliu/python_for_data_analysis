@@ -41,5 +41,30 @@ find the highest frequence of the dict:
     tz_counts[:10].plot(kind='barh', rot=0) 
 
 
+#Ipython
+
+use ? or ?? to introspection the variable or func:
+
+variable?
+
+use %run command:%run scrip.py
+
+Ipython快捷键:     
+
+![Ipython 快捷键](ipython_keys.PNG)
+
+Magic command:
+
+![Magic command 1](magic_command1.PNG)
+
+![Magic command 2](magic_command2.PNG)
+
+use qt gui:
+
+    ipython qtconsole --pylab=inline
+
+log recording:
+
+    %logstart
 
 
